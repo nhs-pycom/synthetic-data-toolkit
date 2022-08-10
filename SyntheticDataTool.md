@@ -12,30 +12,19 @@ Need for useful and easy to generate test data in different formats for develope
 Some examples of current alternatives:
 
 R:
-
-[synthpop](https://www.synthpop.org.uk/index.html)
-
-[simPop](https://github.com/statistikat/simPop)
-
-[sms](https://cran.r-project.org/web/packages/sms/index.html)
-
+- [synthpop](https://www.synthpop.org.uk/index.html)
+- [simPop](https://github.com/statistikat/simPop)
+- [sms](https://cran.r-project.org/web/packages/sms/index.html)
 
 Python: 
-
-[SDV](https://sdv.dev/)
-
-[Faker](https://faker.readthedocs.io/en/master/)
-
-[Gretel Synthetics](https://github.com/gretelai/gretel-synthetics)
-
+- [SDV](https://sdv.dev/)
+- [Faker](https://faker.readthedocs.io/en/master/)
+- [Gretel Synthetics](https://github.com/gretelai/gretel-synthetics)
 
 Healthcare:
-
-[simhospital](google/simhospital)
-
-[Synthea](https://github.com/synthetichealth/synthea)
-
-[Synthetic LS data](https://calls.ac.uk/guides-resources/synthetic-ls-data/)
+- [simhospital](google/simhospital)
+- [Synthea](https://github.com/synthetichealth/synthea)
+- [Synthetic LS data](https://calls.ac.uk/guides-resources/synthetic-ls-data/)
 
 ### Aim and Objectives:
 
@@ -55,23 +44,15 @@ A library that would support NHS specific use cases of creating fake data from s
  
 ### Non-Functional Requirements (NFR):
 
-NFR
-Specification
-Security
-Open Source Distribution
-Responsiveness
-Generation of <5000 data points in under 30s.  Generation of ~1 million data points in under 180s.
-Scalability
-1 user
-Internationalisation
-Python
-Cross-platform
-N/A
-Compliance
-Not Stated
-Accessibility
-Not Stated
-
+| NFR  | Specification | 
+| ----------- | -----------| 
+| Security | Open Source Distribution |
+| Responsiveness | Generation of <5000 data points in under 30s.  Generation of ~1 million data points in under 180s. | 
+| Scalability | 1 user |
+| Internationalisation | Python |
+| Cross-platform | N/A |
+| Compliance | Not Stated |
+| Accessibility | Not Stated |
  
 ### Features and Scenarios:
 
